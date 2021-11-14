@@ -1,0 +1,118 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  } 
+
+body {
+    background: #ffffff;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;}
+.navbar {
+    background:#667E96;
+}
+.nav-link,
+.navbar-brand {
+    color: #ffffff;
+    font-weight:bold;
+    cursor: pointer;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #CDAFB0;
+    border-bottom: 3px solid #CDAFB0;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.name {
+    font-weight: bolder;
+    font-style: italic;
+    color:  #ffffff;
+    font-size: 24;
+}
+
+.id {
+    max-width: 100%;
+    height: auto;
+}
+
+.center {
+    margin: auto;
+    font-weight: bolder;
+    font-style: italic;
+    display: inline-block;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    padding-left: 22vw;
+    padding-right: 22vw;
+}
+
+.alignLeft {
+    padding-left: 1em;
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.subheading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.university {
+    font-size: 20px;
+}
+
+.margin{
+    display: inline-block;
+    width: 100%;
+    padding-top: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vw;
+}
+
+.skills{
+    padding-right: 2em;
+    font-style:italic;
+}
+
+.footer{
+    padding-left:60vw;
+    bottom:0;
+}
+
+.work_img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 5vw;
+}
+
+.list_margin {
+    vertical-align: baseline;
+    padding-top: 2em;
+}
+
+p{
+    line-height: 170%;
+}
+
+.certification{
+    padding-left: 0px;
+    max-width: 100%;
+}
+
+tr{
+    width: 100vw;
+}
+
+.contact{
+    max-width:3vw;
+}
